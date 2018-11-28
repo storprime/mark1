@@ -10,7 +10,7 @@ module.exports = {
       key: '~/.ssh/J-dev.pem',
       ref: 'origin/master',
       repo: 'git@github.com:storprime/mark1.git',
-      path: 'ubuntu/mark1',
+      path: 'home/ubuntu/mark1',
       'post-deploy': 'npm install && pm2 startOrRestart ecosystem.config.js'
     }
   }
