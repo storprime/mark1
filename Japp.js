@@ -14,6 +14,6 @@ client.connect()
 
 client.query('SELECT NOW()', (err, res) => {
   console.log(err, res)
-  document.getElementById('output').innerHTML = "check the console"
+  document.getElementById('output').innerHTML = "check the console";
   client.end()
 })
